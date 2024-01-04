@@ -1,0 +1,16 @@
+{
+  "happyPath": [
+    {
+      "id": 1,
+      "userId": "2",
+      "title": "qui est esse"
+    }
+  ],
+  "negativeTest": [
+    {
+      "id": 420,
+      "userId": 100,
+      "title": "invalid"
+    }
+  ]
+}
