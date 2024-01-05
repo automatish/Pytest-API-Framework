@@ -1,5 +1,6 @@
 import logging
 from datetime import datetime
+import os
 
 
 def configure_logger():
@@ -13,6 +14,13 @@ def configure_logger():
     # Create a console handler and set the level to debug
     ch = logging.StreamHandler()
     ch.setLevel(logging.DEBUG)
+
+    dir_path = "example_directory"
+
+    if os.path.isdir(dir_path):
+        pass
+    else:
+        os.mkdir('execution-logs')
 
     # Create a file handler and set the level to debug
     log_file_path = f'execution-logs/api_tests_{timestamp}.log'

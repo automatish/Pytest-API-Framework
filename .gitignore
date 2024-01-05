@@ -1,0 +1,7 @@
+.idea/
+myenv/
+venv/
+.pytest_cache/
+resources/
+execution-logs/*
+reportdir/*

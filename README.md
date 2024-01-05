@@ -6,6 +6,15 @@
 
 **Test Execution:**
 
+- Environment setup:
+  - Execute below commands to set the virtual env on your local machine:
+            
+        python3 -m pip install --user virtualenv
+        python3 -m venv myenv
+        source myenv/bin/activate
+        pip install -r requirements.txt
+  - Set the Interpreter to 'myenv' in the Project Interpreter settings
+
 - Execute below command in Terminal to execute all the automated tests present [here](test-cases)
         
         python -m pytest --alluredir="./reportdir"  test-cases/*
