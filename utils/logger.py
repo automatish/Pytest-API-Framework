@@ -15,11 +15,8 @@ def configure_logger():
     ch = logging.StreamHandler()
     ch.setLevel(logging.DEBUG)
 
-    dir_path = "example_directory"
-
-    if os.path.isdir(dir_path):
-        pass
-    else:
+    dir_path = "execution-logs"
+    if os.path.isdir(dir_path) is False:
         os.mkdir('execution-logs')
 
     # Create a file handler and set the level to debug
