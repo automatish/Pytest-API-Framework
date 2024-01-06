@@ -37,5 +37,5 @@
 **Test Execution Logs:**
 
 - Logging has been implemented in the framework
-- With each test run, a logs file would be generated with a unique timestamp [here](execution-logs)
+- With each test run, a logs file would be generated with a unique timestamp [here](execution-logs) after the test run is complete
 - These logs can be referred later for the debugging purpose
